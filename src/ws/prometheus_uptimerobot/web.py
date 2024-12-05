@@ -117,7 +117,6 @@ class UptimeRobotCollector(object):
             'format': 'json',
             'offset': offset,
             'response_times': '1',  # enable
-            'response_times_limit': '1',  # just the latest one
         }).json()
 
 
